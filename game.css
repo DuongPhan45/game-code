@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.right_block{
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    width: 30%;
+    flex-direction: column;
+}
+#game_screen{
+    margin: 0px;
+    height: 100vh;
+    width: 70%;
+    background-color: azure;
+}
+canvas#game_window { 
+    border: 1px solide black;
+    width: 100%;
+    height: 100%; }
+#draw_window{
+    margin: 0px;
+    height: 60vh;
+ 
+}
+#score_window{
+    margin: 0px;
+    height: 40vh;
+    background-color: yellow
+}
+/* canvas## { 
+    border: 1px solide black;
+    width: 100%;
+    height: 100%; } */
